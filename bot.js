@@ -71,7 +71,7 @@ client.on("message", async message => {
         message.channel.send("https://vignette.wikia.nocookie.net/overlordmaruyama/images/f/f3/Cocytus_Databook_01.png/revision/latest?cb=20170319001457")
     } 
 	
-	if(message.content === "i gargantua ") { 
+	if(message.content === "i gargantua") { 
         message.channel.send("https://pm1.narvii.com/6939/d19fc4c261437c631edcc1feb78bd8d2b279c9a1r1-1280-720v2_hq.jpg")
     } 
 	
