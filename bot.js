@@ -119,10 +119,12 @@ client.on("message", async message => {
     } 
 	
 	if(message.content === "ov volume") { 
-		message.channel.send("Các Tập hiện có:9, 10, 11, 12, dùng lệnh: ov v9 để xem volume tập 9 hoặc thay 9 bằng tập cần tìm.");
- 
-		message.channel.send("Tập 9: https://meobietbay.com/tag/overlord-tap-9/");
-		message.channel.send("Tập 9: https://meobietbay.com/tag/overlord-tap-9/");
+		message.channel.send("Các Tập hiện có: 1, 9, 10, 11, 12, dùng lệnh: ov v9 để xem volume tập 9 hoặc thay 9 bằng tập cần tìm.")
+    } 
+	
+	if(message.content === "ov v1") { 
+		message.channel.send("Volume 1: The Undead King");
+        message.channel.send("Link: https://meobietbay.com/category/light-novel/overlord/overlord-tap-1/");
     } 
 	
 	if(message.content === "ov v9") { 
