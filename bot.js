@@ -50,6 +50,9 @@ client.on("message", async message => {
         message.channel.send("https://pm1.narvii.com/6948/28a401f11a9d69e59f2092ee24c2f121dae0d7edr1-1280-1708v2_hq.jpg")
 	}
 	
+	if(message.content === "i ainz") { 
+        message.channel.send("https://vignette.wikia.nocookie.net/overlordmaruyama/images/5/52/Ainz_Anime_New.png/revision/latest?cb=20180908023943")
+	}
 	
 	if(message.content === "i albedo") { 
         message.channel.send("https://vignette.wikia.nocookie.net/overlordmaruyama/images/6/60/Albedo_Profile.png/revision/latest?cb=20170402092429")
