@@ -111,6 +111,46 @@ client.on("message", async message => {
         message.channel.send("https://vignette.wikia.nocookie.net/overlordmaruyama/images/6/68/AO.png/revision/latest?cb=20180508141743")
     } 
 	
+//----------------------------------------------------------------------------------------------------
+	
+	if(message.content === "-ln") { 
+		message.channel.send("Light novel");
+        message.channel.send("https://meobietbay.com/light-novel/")
+    } 
+	
+	if(message.content === "ov volume") { 
+		message.channel.send("Các Tập hiện có:9, 10, 11, 12, dùng lệnh: ov v9 để xem volume tập 9 hoặc thay 9 bằng tập cần tìm.");
+ 
+		message.channel.send("Tập 9: https://meobietbay.com/tag/overlord-tap-9/");
+		message.channel.send("Tập 9: https://meobietbay.com/tag/overlord-tap-9/");
+    } 
+	
+	if(message.content === "ov v9") { 
+		message.channel.send("Volume 9: The Magic Caster of Destroy");
+        message.channel.send("Link: https://meobietbay.com/tag/overlord-tap-9/");
+    } 
+	
+	if(message.content === "ov v10") { 
+		message.channel.send("Volume 10: The Ruler of Conspiracy");
+        message.channel.send("Link: https://meobietbay.com/tag/overlord-tap-10/")
+    } 
+	
+	if(message.content === "ov v11") { 
+		message.channel.send("Volume 11: The Craftsman of Dwarf");
+        message.channel.send("Link: https://meobietbay.com/category/light-novel/overlord/overlord-tap-11/")
+    } 
+	
+	if(message.content === "ov v12") { 
+		message.channel.send("Volume 12: Roble Holy Kingdom");
+        message.channel.send("Link: https://meobietbay.com/category/light-novel/overlord/overlord-tap-12/");
+    } 
+	
+	if(message.content === "ov v13") { 
+		message.channel.send("Volume 13: The Paladin of the Holy Kingdom");
+        message.channel.send("Link: https://meobietbay.com/category/light-novel/overlord/overlord-tap-13/page/3/");
+    } 
+		
+	
 });
 
 client.login(process.env.botToken);
