@@ -148,6 +148,11 @@ client.on("message", async message => {
         message.channel.send("Link: https://meobietbay.com/category/light-novel/overlord/overlord-tap-4/");
     } 
 	
+	if(message.content === "ov v5") { 
+	message.channel.send("Volume 5: The Men in the Kingdom 1");
+        message.channel.send("Link: https://meobietbay.com/category/light-novel/overlord/overlord-tap-5/");
+    } 
+	
 	
 	if(message.content === "ov v9") { 
 		message.channel.send("Volume 9: The Magic Caster of Destroy");
