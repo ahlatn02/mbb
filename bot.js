@@ -152,7 +152,15 @@ client.on("message", async message => {
 	message.channel.send("Volume 5: The Men in the Kingdom 1");
         message.channel.send("Link: https://meobietbay.com/category/light-novel/overlord/overlord-tap-5/");
     } 
+	if(message.content === "ov v6") { 
+	message.channel.send("Volume 6: The Men in the Kingdom 2");
+        message.channel.send("Link: https://meobietbay.com/category/light-novel/overlord/overlord-tap-6/");
+    }
 	
+	if(message.content === "ov v7") { 
+	message.channel.send("Volume 7: The Invaders of the Large tomb");
+        message.channel.send("Link: https://meobietbay.com/category/light-novel/overlord/overlord-tap-7/");
+    }
 	
 	if(message.content === "ov v9") { 
 		message.channel.send("Volume 9: The Magic Caster of Destroy");
