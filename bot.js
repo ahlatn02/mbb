@@ -114,6 +114,10 @@ client.on("message", async message => {
         message.channel.send("https://vignette.wikia.nocookie.net/overlordmaruyama/images/d/d4/Solution_Epsilon_Profile.png/revision/latest?cb=20171224072026")
     } 
 	
+	if(message.content === "i clementine") { 
+        message.channel.send("https://vignette.wikia.nocookie.net/overlordmaruyama/images/7/7b/Clementine.png/revision/latest/scale-to-width-down/310?cb=20150812135200")
+    } 
+	
 	if(message.content === "i aureole") { 
         message.channel.send("https://vignette.wikia.nocookie.net/overlordmaruyama/images/6/68/AO.png/revision/latest?cb=20180508141743")
     } 
