@@ -130,7 +130,8 @@ client.on("message", async message => {
     } 
 	
 	if(message.content === "ov volume") { 
-		message.channel.send("Các Tập hiện có: 1, 9, 10, 11, 12, dùng lệnh: ov v9 để xem volume tập 9 hoặc thay 9 bằng tập cần tìm.")
+		message.channel.send("Dùng lệnh: ov v1 -> v9 để xem volume tập 1 hoặc thay 1 bằng tập cần tìm, ví dụ:");
+		message.channel.send("ov v1")
     } 
 	
 	if(message.content === "ov v1") { 
