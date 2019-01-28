@@ -20,8 +20,8 @@ client.on("message", async message => {
 
     } 
 	if(message.content === "facebook") { 
-        message.channel.send("Tham gia group tại: ""https://www.facebook.com/groups/meobietbay");
-		message.channel.send("Fanpge: ""https://www.facebook.com/truyen.hay.cua.meo/")
+        message.channel.send("Tham gia group tại: " + "https://www.facebook.com/groups/meobietbay");
+		message.channel.send("Fanpge: " + "https://www.facebook.com/truyen.hay.cua.meo/")
     }    
 	
 	if(message.content === "-ainz") { 
