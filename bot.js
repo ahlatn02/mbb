@@ -18,7 +18,13 @@ client.on("message", async message => {
         message.channel.send("https://meobietbay.com/wp-content/uploads/2017/07/meobietbay.com_.png");
 	    message.channel.send("https://meobietbay.com/");
 
-    } if(message.content === "-ainz") { 
+    } 
+	if(message.content === "facebook") { 
+        message.channel.send("Tham gia group tại: ""https://www.facebook.com/groups/meobietbay");
+		message.channel.send("Fanpge: ""https://www.facebook.com/truyen.hay.cua.meo/")
+    }    
+	
+	if(message.content === "-ainz") { 
         message.channel.send("https://meobietbay.com/light-novel/overlord/gioi-thieu-ve-ainz-oaal-gown/")
     }    
     
