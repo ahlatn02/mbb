@@ -13,9 +13,10 @@ client.on("message", async message => {
   const args = message.content.slice(prefix.length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
 
-    if(message.content === "i mbb") { 
+    if(message.content === "i mbb" || "meo biet bay") { 
 		message.channel.send("Con mèo duy nhất biết bay:");
         message.channel.send("https://meobietbay.com/wp-content/uploads/2017/07/meobietbay.com_.png");
+	    message.channel.send(https://meobietbay.com/);
 
     } if(message.content === "-ainz") { 
         message.channel.send("https://meobietbay.com/light-novel/overlord/gioi-thieu-ve-ainz-oaal-gown/")
