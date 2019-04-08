@@ -55,9 +55,15 @@ client.on("message", async message => {
         message.channel.send("https://meobietbay.com/light-novel/overlord/gioi-thieu-olasirdarc-haylilyal/")
     } 
 	
+	
+	
 	//-----------------------------------------------------------------------------
 	if(message.content === "i ov") { 
         message.channel.send("https://pm1.narvii.com/6948/28a401f11a9d69e59f2092ee24c2f121dae0d7edr1-1280-1708v2_hq.jpg")
+	}
+	if(message.content === "i touchme") { 
+        message.channel.send("https://vignette.wikia.nocookie.net/overlordmaruyama/images/3/37/Touch_Me_Databook.png/revision/latest?cb=20170319002900
+")
 	}
 	
 	if(message.content === "i ainz") { 
