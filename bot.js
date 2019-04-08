@@ -14,9 +14,12 @@ client.on("message", async message => {
   const command = args.shift().toLowerCase();
 
     if(message.content === "mbb" || message.content === "Mbb") { 
-		message.channel.send("Con mèo duy nhất biết bay:");
-        message.channel.send("https://meobietbay.com/wp-content/uploads/2017/07/meobietbay.com_.png");
-	    message.channel.send("https://meobietbay.com/");
+		message.channel.send("Con mèo duy nhất trên trái đất biết bay:");
+	    message.channel.send("website: https://meobietbay.com/");
+	     message.channel.send("Fanpge: " + "https://www.facebook.com/truyen.hay.cua.meo/");
+	       message.channel.send("Tham gia group tại: " + "https://www.facebook.com/groups/meobietbay");
+	     message.channel.send("Vào đây để xem hướng dẫn: #hướng-dẫn");
+	    
 
     } 
 	if(message.content === "facebook") { 
