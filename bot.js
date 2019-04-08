@@ -201,6 +201,10 @@ client.on("message", async message => {
 		message.channel.send("Volume 13: The Paladin of the Holy Kingdom");
         message.channel.send("Link: https://meobietbay.com/category/light-novel/overlord/overlord-tap-13/page/3/");
     } 
+		if(message.content === "ov gaiden e") { 
+		message.channel.send("Overlord Gaiden Prologue: Vampire of a Ruined Country");
+        message.channel.send("Link: https://meobietbay.com/light-novel/overlord/overlord-english/overlord-gaiden-prologue/");
+    } 
 		
 	
 });
