@@ -69,6 +69,10 @@ client.on("message", async message => {
         message.channel.send("https://vignette.wikia.nocookie.net/overlordmaruyama/images/3/3b/Pandora%27s_Actor_Databook.png/revision/latest?cb=20170319002556")
 	}
 	
+	if(message.content === "i miyoshi") { 
+        message.channel.send("https://vignette.wikia.nocookie.net/overlordmaruyama/images/d/d9/Miyoshi.png/revision/latest?cb=20180710153321")
+	}
+	
 	
 	if(message.content === "i ainz") { 
         message.channel.send("https://vignette.wikia.nocookie.net/overlordmaruyama/images/5/52/Ainz_Anime_New.png/revision/latest?cb=20180908023943")
