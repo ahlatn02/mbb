@@ -219,7 +219,7 @@ client.on("message", async message => {
 		message.channel.send("Overlord Gaiden Prologue: Vampire of a Ruined Country");
         message.channel.send("Link: https://meobietbay.com/light-novel/overlord/overlord-english/overlord-gaiden-prologue/");
     } 
-	if(message.content === "ov gaiden md") { 
+	if(message.content === "ov gaiden md" || message.content === "Ov gaiden md") { 
 		message.channel.send("Overlord Gaiden Prologue: Vampire of a Ruined Country");
         message.channel.send("Link: https://meobietbay.com/light-novel/overlord/overlord-gaiden/overlord-gaiden-mo-dau/");
     } 	
