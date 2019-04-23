@@ -154,31 +154,31 @@ client.on("message", async message => {
     } 
 	
 	if(message.content === "ov kn1") { 
-		message.channel.send("Light novel");
+		message.channel.send("Overlord Khởi Nguyên Chương 1");
         message.channel.send("https://meobietbay.com/light-novel/overlord/overlord-khoi-nguyen/overlord-khoi-nguyen-chuong-1/")
     } 
 	
 	if(message.content === "ov kn2") { 
-		message.channel.send("Light novel");
+		message.channel.send("Overlord Khởi Nguyên Chương 2");
         message.channel.send("https://meobietbay.com/light-novel/overlord/overlord-khoi-nguyen/overlord-khoi-nguyen-chuong-2/")
     } 
 	
 	if(message.content === "ov kn3") { 
-		message.channel.send("Light novel");
+		message.channel.send("Overlord Khởi Nguyên Chương 3");
         message.channel.send("https://meobietbay.com/light-novel/overlord/overlord-khoi-nguyen/overlord-khoi-nguyen-chuong-3/")
     } 
 	
 	if(message.content === "ov kn4") { 
-		message.channel.send("Light novel");
+		message.channel.send("Overlord Khởi Nguyên Chương 4");
         message.channel.send("https://meobietbay.com/light-novel/overlord/overlord-khoi-nguyen/overlord-khoi-nguyen-chuong-4/")
     } 
 	
 	if(message.content === "ov kn5") { 
-		message.channel.send("Light novel");
+		message.channel.send("Overlord Khởi Nguyên Chương 5");
         message.channel.send("https://meobietbay.com/light-novel/overlord/overlord-khoi-nguyen/overlord-khoi-nguyen-chuong-5/")
     } 
 	
-	if(message.content === "ov kn6") { 
+	if(message.content === "Overlord Khởi Nguyên Chương 6") { 
 		message.channel.send("Light novel");
         message.channel.send("https://meobietbay.com/light-novel/overlord/overlord-khoi-nguyen/overlord-khoi-nguyen-chuong-6/")
     } 
