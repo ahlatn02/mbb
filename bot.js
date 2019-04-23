@@ -65,6 +65,10 @@ client.on("message", async message => {
         message.channel.send("https://vignette.wikia.nocookie.net/overlordmaruyama/images/3/37/Touch_Me_Databook.png/revision/latest?cb=20170319002900")
 	}
 	
+	if(message.content === "i evileye") { 
+        message.channel.send("https://i.pinimg.com/originals/10/f6/a3/10f6a3e7ad5066b833c15d0b864da0f9.jpg")
+	}
+	
 	if(message.content === "i pandora") { 
         message.channel.send("https://vignette.wikia.nocookie.net/overlordmaruyama/images/3/3b/Pandora%27s_Actor_Databook.png/revision/latest?cb=20170319002556")
 	}
