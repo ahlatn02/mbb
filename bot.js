@@ -153,6 +153,36 @@ client.on("message", async message => {
         message.channel.send("https://meobietbay.com/light-novel/")
     } 
 	
+	if(message.content === "ov kn1") { 
+		message.channel.send("Light novel");
+        message.channel.send("https://meobietbay.com/light-novel/overlord/overlord-khoi-nguyen/overlord-khoi-nguyen-chuong-1/")
+    } 
+	
+	if(message.content === "ov kn2") { 
+		message.channel.send("Light novel");
+        message.channel.send("https://meobietbay.com/light-novel/overlord/overlord-khoi-nguyen/overlord-khoi-nguyen-chuong-2/")
+    } 
+	
+	if(message.content === "ov kn3") { 
+		message.channel.send("Light novel");
+        message.channel.send("https://meobietbay.com/light-novel/overlord/overlord-khoi-nguyen/overlord-khoi-nguyen-chuong-3/")
+    } 
+	
+	if(message.content === "ov kn4") { 
+		message.channel.send("Light novel");
+        message.channel.send("https://meobietbay.com/light-novel/overlord/overlord-khoi-nguyen/overlord-khoi-nguyen-chuong-4/")
+    } 
+	
+	if(message.content === "ov kn5") { 
+		message.channel.send("Light novel");
+        message.channel.send("https://meobietbay.com/light-novel/overlord/overlord-khoi-nguyen/overlord-khoi-nguyen-chuong-5/")
+    } 
+	
+	if(message.content === "ov kn6") { 
+		message.channel.send("Light novel");
+        message.channel.send("https://meobietbay.com/light-novel/overlord/overlord-khoi-nguyen/overlord-khoi-nguyen-chuong-6/")
+    } 
+	
 	if(message.content === "ov volume") { 
 		message.channel.send("Dùng lệnh: ov v1 -> v9 để xem volume tập 1 hoặc thay 1 bằng tập cần tìm, ví dụ:");
 		message.channel.send("ov v1")
