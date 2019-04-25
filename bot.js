@@ -182,8 +182,8 @@ client.on("message", async message => {
         message.channel.send("https://meobietbay.com/light-novel/overlord/overlord-khoi-nguyen/overlord-khoi-nguyen-chuong-5/")
     } 
 	
-	if(message.content === "Overlord Khởi Nguyên Chương 6") { 
-		message.channel.send("Light novel");
+	if(message.content === "ov kn6") { 
+		message.channel.send("Overlord Khởi Nguyên Chương 6");
         message.channel.send("https://meobietbay.com/light-novel/overlord/overlord-khoi-nguyen/overlord-khoi-nguyen-chuong-6/")
     } 
 	
