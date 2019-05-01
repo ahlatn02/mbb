@@ -157,6 +157,22 @@ client.on("message", async message => {
         message.channel.send("https://meobietbay.com/light-novel/")
     } 
 	
+	if(message.content === "ov gaiden p1") { 
+		message.channel.send("The Vampire Princess of the Lost Country Prologue Part 1");
+        message.channel.send("https://meobietbay.com/light-novel/overlord/overlord-gaiden/the-vampire-princess-of-the-lost-country-prologue-part-1/")
+    } 
+	
+	if(message.content === "ov gaiden p2") { 
+		message.channel.send("The Vampire Princess of the Lost Country Prologue Part 2");
+        message.channel.send("https://meobietbay.com/light-novel/overlord/overlord-gaiden/the-vampire-princess-of-the-lost-country-prologue-part-2/")
+    } 
+	
+		if(message.content === "ov gaiden p3") { 
+		message.channel.send("The Vampire Princess of the Lost Country Prologue Part 3");
+        message.channel.send("https://meobietbay.com/light-novel/overlord/overlord-gaiden/the-vampire-princess-of-the-lost-country-prologue-part-3/")
+    } 
+	
+	
 	if(message.content === "ov kn1") { 
 		message.channel.send("Overlord Khởi Nguyên Chương 1");
         message.channel.send("https://meobietbay.com/light-novel/overlord/overlord-khoi-nguyen/overlord-khoi-nguyen-chuong-1/")
