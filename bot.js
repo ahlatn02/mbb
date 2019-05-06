@@ -273,6 +273,11 @@ client.on("message", async message => {
 		message.channel.send("Overlord Gaiden Prologue: Vampire of a Ruined Country");
         message.channel.send("Link: https://meobietbay.com/light-novel/overlord/overlord-gaiden/overlord-gaiden-mo-dau/");
     } 	
+	
+	if(message.content === "ov vampire md" || message.content === "Ov vampire md") { 
+		message.channel.send("Overlord Công Chúa Vampire Của Đất Nước Bị Lãng Quên Mở Đầu");
+        message.channel.send("https://meobietbay.com/light-novel/overlord/overlord-gaiden/cong-chua-vampire-cua-dat-nuoc-bi-lang-quen-mo-dau/");
+    } 	
 
 	
 });
