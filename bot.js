@@ -279,6 +279,11 @@ client.on("message", async message => {
         message.channel.send("https://meobietbay.com/light-novel/overlord/overlord-gaiden/cong-chua-vampire-cua-dat-nuoc-bi-lang-quen-mo-dau/");
     } 	
 
+	if(message.content === "ov vampire c1" || message.content === "Ov vampire c1") { 
+		message.channel.send("Overlord Công Chúa Vampire Của Đất Nước Bị Lãng Quên Chương 1");
+        message.channel.send("https://meobietbay.com/light-novel/overlord/overlord-gaiden/cong-chua-vampire-cua-dat-nuoc-bi-lang-quen-chuong-1/");
+    } 	
+	
 	
 });
 
