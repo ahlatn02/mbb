@@ -297,7 +297,12 @@ client.on("message", async message => {
 	if(message.content === "ov vampire c4" || message.content === "Ov vampire c4") { 
 		message.channel.send("Overlord Công Chúa Vampire Của Đất Nước Bị Lãng Quên Chương 4: Người Ngoài Cuộc");
         message.channel.send("https://meobietbay.com/light-novel/overlord/overlord-gaiden/overlord-cong-chua-vampire-cua-dat-nuoc-bi-lang-quen-chuong-4/");
-    } 	
+    } 
+	
+	if(message.content === "ov vampire ck" || message.content === "Ov vampire ck") { 
+		message.channel.send("Overlord Công Chúa Vampire Của Đất Nước Bị Lãng Quên Chương Kết");
+        message.channel.send("https://meobietbay.com/light-novel/overlord/overlord-gaiden/overlord-cong-chua-vampire-cua-dat-nuoc-bi-lang-quen-chuong-ket/");
+    } 
 });
 
 client.login(process.env.botToken);
