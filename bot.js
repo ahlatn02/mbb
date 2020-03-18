@@ -204,7 +204,7 @@ client.on("message", async message => {
     } 
 	
 	if(message.content === "ov volume") { 
-		message.channel.send("Dùng lệnh: ov v1 -> v9 để xem volume tập 1 hoặc thay 1 bằng tập cần tìm, ví dụ:");
+		message.channel.send("Dùng lệnh: ov v1 -> v14 để xem volume tập 1 hoặc thay 1 bằng tập cần tìm, ví dụ:");
 		message.channel.send("ov v1")
     } 
 	
@@ -274,36 +274,11 @@ client.on("message", async message => {
         message.channel.send("Link: https://meobietbay.com/light-novel/overlord/overlord-gaiden/overlord-gaiden-mo-dau/");
     } 	
 	
-	if(message.content === "ov vampire md" || message.content === "Ov vampire md") { 
+	if(message.content === "ov vampire" || message.content === "Ov vampire") { 
 		message.channel.send("Overlord Công Chúa Vampire Của Đất Nước Bị Lãng Quên Mở Đầu");
-        message.channel.send("https://meobietbay.com/light-novel/overlord/overlord-gaiden/cong-chua-vampire-cua-dat-nuoc-bi-lang-quen-mo-dau/");
+        message.channel.send("https://meobietbay.com/category/light-novel/overlord/overlord-gaiden/");
     } 	
 
-	if(message.content === "ov vampire c1" || message.content === "Ov vampire c1") { 
-		message.channel.send("Overlord Công Chúa Vampire Của Đất Nước Bị Lãng Quên Chương 1");
-        message.channel.send("https://meobietbay.com/light-novel/overlord/overlord-gaiden/cong-chua-vampire-cua-dat-nuoc-bi-lang-quen-chuong-1/");
-    } 	
-	
-	if(message.content === "ov vampire c2" || message.content === "Ov vampire c2") { 
-		message.channel.send("Overlord Công Chúa Vampire Của Đất Nước Bị Lãng Quên Chương 2");
-        message.channel.send("https://meobietbay.com/light-novel/overlord/overlord-gaiden/cong-chua-vampire-cua-dat-nuoc-bi-lang-quen-chuong-2/");
-    } 	
-	
-	if(message.content === "ov vampire c3" || message.content === "Ov vampire c3") { 
-		message.channel.send("Overlord Công Chúa Vampire Của Đất Nước Bị Lãng Quên Chương 2");
-        message.channel.send("https://meobietbay.com/light-novel/overlord/overlord-gaiden/cong-chua-vampire-cua-dat-nuoc-bi-lang-quen-chuong-3/");
-    } 	
-	
-	if(message.content === "ov vampire c4" || message.content === "Ov vampire c4") { 
-		message.channel.send("Overlord Công Chúa Vampire Của Đất Nước Bị Lãng Quên Chương 4: Người Ngoài Cuộc");
-        message.channel.send("https://meobietbay.com/light-novel/overlord/overlord-gaiden/overlord-cong-chua-vampire-cua-dat-nuoc-bi-lang-quen-chuong-4/");
-    } 
-	
-	if(message.content === "ov vampire ck" || message.content === "Ov vampire ck") { 
-		message.channel.send("Overlord Công Chúa Vampire Của Đất Nước Bị Lãng Quên Chương Kết");
-        message.channel.send("https://meobietbay.com/light-novel/overlord/overlord-gaiden/overlord-cong-chua-vampire-cua-dat-nuoc-bi-lang-quen-chuong-ket/");
-    } 
-	
 	//----Vol 14----
 	if(message.content === "ov v14" || message.content === "Ov v14") { 
 		message.channel.send("Overlord Volume 14: The Witch of the Falling Kingdom");
