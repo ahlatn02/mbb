@@ -290,7 +290,7 @@ client.on("message", async message => {
     } 	
 	
 	if(message.content === "ov vampire c3" || message.content === "Ov vampire c3") { 
-		message.channel.send("Overlord Công Chúa Vampire Của Đất Nước Bị Lãng Quên Chương 3");
+		message.channel.send("Overlord Công Chúa Vampire Của Đất Nước Bị Lãng Quên Chương 2");
         message.channel.send("https://meobietbay.com/light-novel/overlord/overlord-gaiden/cong-chua-vampire-cua-dat-nuoc-bi-lang-quen-chuong-3/");
     } 	
 	
