@@ -303,6 +303,13 @@ client.on("message", async message => {
 		message.channel.send("Overlord Công Chúa Vampire Của Đất Nước Bị Lãng Quên Chương Kết");
         message.channel.send("https://meobietbay.com/light-novel/overlord/overlord-gaiden/overlord-cong-chua-vampire-cua-dat-nuoc-bi-lang-quen-chuong-ket/");
     } 
+	
+	//----Vol 14----
+	if(message.content === "ov v14" || message.content === "Ov v14") { 
+		message.channel.send("Overlord Volume 14: The Witch of the Falling Kingdom");
+        message.channel.send("https://meobietbay.com/category/light-novel/overlord/overlord-tap-14/");
+    } 
+	
 });
 
 client.login(process.env.botToken);
