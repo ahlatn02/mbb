@@ -14,6 +14,10 @@ client.on("message", async message => {
   const command = args.shift().toLowerCase();
 	
 	
+	      if(message.content === "mbb xoa") { 
+        message.channel.send("/xoah")
+    }
+	
 	  if (command === "xoah") {
     setTimeout(prune, 1000); // Theoretically waits long enough to avoid 10008 error
     function prune() {
